@@ -74,6 +74,6 @@ Test it out yourself by sending an email to `steverkouse.testEmail2@valtown.emai
 
 # Recommended topics
 
-[+]script-val
+[+]introduction
 [+]http-val
 [+]scheduled-val

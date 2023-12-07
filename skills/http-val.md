@@ -51,6 +51,6 @@ export const queryParams = (req: Request) => {
 
 [+]http-jsx
 [+]http-api
-[+]script-val
+[+]introduction
 [+]scheduled-val
 [+]email-val

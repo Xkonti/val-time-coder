@@ -60,8 +60,21 @@ export const getDevToPublicPosts = async (username: string) => {
 export const lastData = await getDevToPublicPosts(username);
 ```
 
+# Val Town Standard Library
+
+Val Town has an ever-growing standard library of useful vals. You can import them like any other val. You can also import specific versions of the val by appending `?v=1` to the import URL. This is useful for locking down the version of the val to prevent breaking changes.
+
+It is recommended to prioritize using the standard library over importing NPM packages. This is because the standard library is optimized for Val Town and is guaranteed to work. NPM packages might not work due to missing dependencies or other issues.
+
+The Standard Library provides the following vals:
+- `blob` - a simple key-value store for storing small pieces of data
+- `email` - a function for sending emails
+- `sqlite` - a SQLite database API
+
 # Recommended topics
 
 [+]http-val
 [+]scheduled-val
 [+]email-val
+[+]blob-storage
+[+]sqlite-storage
