@@ -65,4 +65,4 @@ export const solidExample = async () =>
 # Recommended topics
 
 [+]http-val
-[+]http-api
+[+]http-routing

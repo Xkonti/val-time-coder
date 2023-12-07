@@ -50,7 +50,7 @@ export const queryParams = (req: Request) => {
 # Recommended topics
 
 [+]http-jsx
-[+]http-api
+[+]http-routing
 [+]introduction
 [+]scheduled-val
 [+]email-val
