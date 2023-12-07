@@ -121,4 +121,3 @@ export type InStatement = {
 [+]blob-storage
 [+]sqlite-storage-migrations
 [+]sqlite-storage-orms
-[+]sqlite-wasm

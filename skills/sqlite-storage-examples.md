@@ -69,4 +69,3 @@ export const batchSqlite = await sqlite.batch([
 [+]blob-storage
 [+]sqlite-storage-migrations
 [+]sqlite-storage-orms
-[+]sqlite-wasm
