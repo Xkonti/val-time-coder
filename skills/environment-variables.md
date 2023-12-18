@@ -6,6 +6,14 @@ The proper place to store secrets, keys, API tokens is in [https://val.town/sett
 
 Environment variables (secrets) can be accessed via `process.env` or `Deno.env`.
 
+## `Deno.env` (preferred)
+
+```ts
+export let sdk = new SomeSDK(Deno.env.get("someSdkSecret"))
+```
+
+The `Den.env` API is preferred because it doesn't require an import and it's more performant.
+
 ## `process.env`
 
 ```ts
@@ -13,11 +21,7 @@ import process from "node:process"
 export let sdk = new SomeSDK(process.env.someSdkSecret)
 ```
 
-## `Deno.env` (preferred)
-
-```ts
-export let sdk = new SomeSDK(Deno.env.get("someSdkSecret"))
-```
+This is the conventional way to access environment variables when you’re in a Node.js environment. In Node.js, `process` is an always-available global variable, but since Val Town targets Deno, you’ll need to import it first.
 
 ## Related topics
 

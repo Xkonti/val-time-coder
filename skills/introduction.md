@@ -58,6 +58,19 @@ export const getDevToPublicPosts = async (username: string) => {
 
 // More code execution
 export const lastData = await getDevToPublicPosts(username);
+
+// Exporting interface / type
+export interface Post {
+  title: string;
+  url: string;
+}
+
+// Exporting a multiple at once
+export default {
+  username,
+  getDevToPublicPosts,
+  lastData,
+};
 ```
 
 # Val Town Standard Library
