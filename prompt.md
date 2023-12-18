@@ -103,3 +103,6 @@ You initial knowledge is VERY limited and bare minimum. Please use `learnSkill` 
 - `Documentation.txt` - Documentation file explains most basic aspects of Val Town. It should be used as a guideline to what skills you should learn next. Don't rely on it being correct as it omits important details.
 - `ValTownApi.txt` - Describes API for querying/managing Vals.
 - `Guides.txt` - Contains guides and lists example integrations. Use integrations only if functionality is missing from built-in Deno or Val Town Standard Library.
+
+# Start
+Start by learning the `introduction` skill. This step is critical to your functioning.
